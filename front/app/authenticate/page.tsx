@@ -57,18 +57,11 @@ export default function Authenticate() {
         >
           <Stack gap={4} sx={{ mb: 2 }}>
             <Stack gap={1}>
-              <Typography component="h1" level="h3">
+              <Typography textAlign="center" component="h1" level="h3">
                 Connexion
-              </Typography>
-              <Typography level="body-sm">
-                Vous êtes nouveau?{' '}
-                <Link href="#replace-with-a-link" level="title-sm">
-                  Créér un compte!
-                </Link>
               </Typography>
             </Stack>
           </Stack>
-          <Divider>ou</Divider>
           <Stack gap={4} sx={{ mt: 2 }}>
             <form
               onSubmit={(event: React.FormEvent<SignInFormElement>) => {
